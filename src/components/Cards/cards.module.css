@@ -1,0 +1,15 @@
+.infected {
+    width: 100%;
+    height: 10px;
+    background-color: blue;
+}
+.recovered {
+    width: 100%;
+    height: 10px;
+    background-color: green;
+}
+.deaths {
+    width: 100%;
+    height: 10px;
+    background-color: red;
+}
