@@ -26,7 +26,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="container">
-        <img className="img-fluid mt-3" src={covid} alt="Chania"></img>
+        <img className="img-fluid mt-3" src={covid} alt="Covid19"></img>
         <Cards data={this.state.data}></Cards>
         <Countrypicker handleCountryChange={this.handleCountryChange} countryBadge={this.state.country}></Countrypicker>
         <Chart data={this.state.data} country={this.state.country}></Chart>
